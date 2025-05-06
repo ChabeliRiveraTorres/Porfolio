@@ -29,35 +29,48 @@ foot a {
 body {
     background-color: blanchedalmond;
 }
-
-.skills-text h1 {
+body {
+    background-color: #Fdfaf6;
+    font-family:sans-serif;
     color: #333;
-    margin-bottom: 20px;
-    font-size: 1.5em;
-    font-family: arial, sans-serif;
+    margin: 20px;
 }
-.skills-section {
+h1 {
+    text-align: center;
+    color:#35424a;
+    margin-bottom: 40px;
+}
+.reference {
     display: flex;
-    justify-content: center;
     align-items: flex-start;
-    gap: 40px;
-    padding: 40px;
-    max-width: 1000px;
-    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 60px;
+    gap:30px;
+    padding: 20px;
     background-color: #d69999;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
-.skills-img {
-    width: 300px;
+.reference img {
+    width: 200px;
     height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
+    border-radius: 6px;
+    border: 2px solid #dcdcdc;
 }
-.skills-text {
-    max-width: 500px;
+.reference .info {
+    max-width: 600px;
 }
-.skills-text ul {
-    list-style-type: disc;
-    padding-left: 20px;
-    line-height: 1.6;
-    color: #333;
+.reference .info p {
+    line-height: 1.5;
+    margin-bottom: 10px;
 }
+.reference .reverse {
+    flex-direction: row-reverse;
+}
+.heading {
+    color: #d69999;
+    margin-top: 40px;
+    font-family: sans-serif;
+}
+
+
